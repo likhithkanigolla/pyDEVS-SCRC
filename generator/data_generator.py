@@ -4,6 +4,7 @@ import logging
 import csv
 import sys
 import os
+import joblib
 
 class DataGenerator:
     def __init__(self, mode='random', config_file='generator/sensors_config.json', csv_file=None):
